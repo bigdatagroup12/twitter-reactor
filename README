@@ -1,0 +1,12 @@
+#Edit the src/main/resources/application.properties and add your personal account info
+
+#To build the Twitter app
+mvn clean package
+
+#To build the Indeed app
+mvn clean package -Pindeed
+
+
+#Invoke from cmd line with Java 8+
+cd into build directory /target
+java -jar twitter-reactor-0.0.1-SNAPSHOT.jar
